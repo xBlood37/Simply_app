@@ -1,0 +1,22 @@
+.header {
+  height: 100px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  display: block;
+  text-align: center;
+}
+
+.header-inner {
+  height: 200px;
+  margin-top: 10px;
+  margin-left: -100px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,15 @@
+.content {
+  width: 30%;
+  float: left;
+  margin-left: 100px;
+}
+
+.content-inner {
+  min-height: 1000px;
+}
+
+.img {
+  width: 500px;
+  height: 700px;
+  background: url("../img/pic1.jpg");
+}

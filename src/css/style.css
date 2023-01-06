@@ -1,0 +1,36 @@
+@import "header.css";
+@import "content.css";
+@import "sidebar.css";
+
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row {
+  display: inline-block;
+}
+
+* html .row {
+  height: 1%;
+}
+.row {
+  display: block;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.wrapper {
+  transition: all 1s ease;
+}
